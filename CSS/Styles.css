@@ -1,0 +1,90 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    z-index: 0;
+}
+
+.jumbotron {
+    margin: 0px;
+}
+
+.back {
+    height: 100%;
+    width: 100%;
+    background-image: url('/img/Back.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+
+.middle {
+    text-align: justify;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+.row-content {
+    padding-top: 25px;
+}
+
+.back h1 {
+    font-size: 70px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.card {
+    background-color: transparent;
+}
+
+.navbar-dark {
+    background-color: #9e0404;
+}
+
+.back1 {
+    width: 100%;
+}
+
+.back2 {
+    width: 100%;
+    background-color: black;
+    color: white;
+}
+
+.checked {
+    color: orange;
+}
+
+a img {
+    border-radius: 50%;
+    }
+
+.footer {
+    background-color: #D1C4E9;
+    margin: 0px auto;
+    padding-top: 5px;
+}
+
+.project {
+    margin-top: 5px;
+}
+
+.Content-div {
+    margin: 10px;
+}
+
+#para {
+    animation: color-change 2s infinite;
+}
+
+@keyframes color-change {
+    0% { color: red; }
+    50% { color: #FFB404; }
+    100% { color: brown; }
+}
+        
